@@ -1,0 +1,122 @@
+.carousel-container{
+    width: 100%;
+ 
+    margin-top: 20px;
+
+    box-sizing: border-box;
+    padding: 40px;
+    position: relative;
+}
+.carousel-container:hover .moviecar-nav-left{
+    display: block;
+}
+.moviecar-nav-left{
+    display: none;
+    position: absolute;
+    color: #fff;
+    left: 60px;
+    bottom: 45%;
+    font-size: 40px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    z-index: 1;
+
+}
+.moviecar-nav-left:hover {
+    color: yellow;
+}
+.moviecar-nav-right:hover{
+color: yellow;
+}
+.moviecar-nav-right{
+    position: absolute;
+    color: #fff;
+    right: 40px;
+    bottom: 45%;
+    font-size: 40px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.cards{
+    display: flex;
+    overflow: auto;
+ 
+}
+.card{
+    background-color: rgb(43, 42, 40);
+
+position: relative;
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+.overlay{position: absolute;
+background-color:rgb(27, 24, 24); 
+opacity: 0.5;
+border: none;
+height: 50px;
+color: #fff;
+font-size: 36px;
+cursor: pointer;
+
+}
+.overlay:hover{
+    opacity: 1;
+}
+.movie-details{
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.add{
+    width: 100%;
+    background-color: rgb(27, 24, 24);
+    color: dodgerblue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+cursor: pointer;
+
+}
+.watchtrailer{
+    border: none;
+    background: none;
+    text-align: center;
+    width: 100%;
+    color:#fff;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.rate{
+    width: 90%;
+    text-align: center;
+
+    background-color: yellow;
+    border: none;
+    font-size: 21px;
+    border-radius: 10px;
+    padding: 2px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.rating-star{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 165px;
+    right: 180px;
+}
+.rating-star-value{
+    color: #fff;
+    position: relative;
+    top: -25px;
+    left: 4px;
+}
+.movie-title{
+    width:150px;
+    height: 60px;
+}
